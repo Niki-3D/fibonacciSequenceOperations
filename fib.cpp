@@ -141,6 +141,7 @@ Fib& Fib::operator<<=(int shiftAmount) {
 }
 
 // --- Comparisons ---
+//change comparison operators so they do not require changing into the decimal form so the code is more optimized
 
 bool Fib::operator==(const Fib& other) const {
     return normalize(this->fib_representation) == normalize(other.fib_representation);
