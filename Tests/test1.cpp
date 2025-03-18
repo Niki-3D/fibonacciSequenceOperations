@@ -1,4 +1,4 @@
-#include "fib.h"
+#include "../fib.h"
 
 #include <cassert>
 #include <iostream>

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "PD3_Fib.exe"
+			"path" : "test2.exe"
 		},
 		{
-			"path" : "PD3_Fib.pdb"
+			"path" : "test2.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "PD3_Fib::@6890427a1f51a3e7e1df",
+	"id" : "test2::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "PD3_Fib",
-	"nameOnDisk" : "PD3_Fib.exe",
+	"name" : "test2",
+	"nameOnDisk" : "test2.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -100,7 +100,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "Tests/test2.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
